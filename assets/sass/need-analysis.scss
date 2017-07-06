@@ -1,0 +1,37 @@
+.container-analysis {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.container-analysis h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+.analysis-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1170px;
+}
+.analysis-item {
+   width: 24%;
+ }
+.analysis-item img {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.analysis-item p {
+  margin-top: 20px;
+  font-weight: bold;
+}

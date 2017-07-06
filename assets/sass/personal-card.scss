@@ -1,0 +1,81 @@
+.container-personal-card {
+  display: flex;
+  flex-direction: column;
+  height: 565px;
+  text-align: center;
+  background: url("../images/zodiac-fon.jpg")0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 55%;
+}
+.container-personal-card__opacity {
+  background-color: rgba(18, 14, 50, 0.86);
+  height: 100%;
+}
+.container-personal-card h1 {
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 181px;
+  font-family: $headers-font-bold;
+}
+.container-personal-card h2 {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 28px;
+}
+.container-personal-card p{
+  color: #ffffff;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.personal-card {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 5px 0;
+  display: inline-flex;
+  justify-content: center;
+}
+.personal-card__item {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.personal-card__input {
+  border: 1px solid #ccc;
+  width: 224px;
+  padding: 12px 12px;
+  border-radius: 5px;
+}
+.personal-card__btn-submit {
+  /*background-color: rgba(62, 53, 189, 0.85);*/
+  background-color: #3e35bd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  /*border-color: rgb(68, 40, 166);*/
+  border-color: #3e35bd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  cursor: pointer;
+}
+.personal-card__btn-submit:hover {
+  background-color: #3830aa;
+  border-color: #322a97;
+  color: white;
+}
+#pink-time {
+  color: #EF6EA8;
+}

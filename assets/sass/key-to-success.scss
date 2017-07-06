@@ -1,0 +1,89 @@
+.container-key {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url("../images/cosmo-fon.jpg")0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 55%;
+}
+.container-key__opacity {
+  background-color: rgba(18, 14, 50, 0.86);
+  height: 100%;
+  padding-top: 45px;
+}
+.container-key h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 44px;
+}
+.container-key p {
+  color: #ffffff;
+  float: left;
+}
+.wrap__key-item {
+  display: inline-flex;
+}
+.key-item {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(55, 46, 168);
+  padding: 5px;
+  margin: 0 0 50px 20px;
+}
+.key-item ul {
+  text-align: start;
+}
+.key-item ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+.key-item__container {
+  width: 100%;
+}
+.key-item__container img {
+  width: 46px;
+  float: left;
+}
+.key-item__container p {
+  margin-top: 12px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.key-item__btn-wrap {
+  margin-bottom: 45px;
+}
+.key-item__btn {
+  background-color: rgb(62, 53, 189);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 3px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: rgb(62, 53, 189);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.key-item__btn:hover {
+  background-color: rgb(56, 48, 170);
+  border-color: rgb(50, 42, 151);
+  color: rgb(255, 255, 255);
+}

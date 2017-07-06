@@ -1,0 +1,59 @@
+@font-face {
+  font-family: FontAwesome;
+  src: url('../fonts/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+  url('../fonts/FontAwesome.otf?v=3.0.1') format("opentype"),
+  url('../fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+  url('../fonts/fontawesome-webfont.woff2?v=3.0.1') format('woff2'),
+  url('../fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSansLight;
+  src: url(../fonts/OpenSansLight.eot);
+  src: url(../fonts/OpenSansLight.eot?#iefix)format("embedded-opentype"),
+  url(../fonts/OpenSans-Light.ttf)format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(../fonts/OpenSansRegular.eot);
+  src: url(../fonts/OpenSansRegular.eot?#iefix)format("embedded-opentype"), url(../fonts/OpenSans-Regular.ttf)format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSansBold;
+  src: url(../fonts/OpenSansBold.eot);
+  src: url(../fonts/OpenSansBold.eot?#iefix)format("embedded-opentype"), url(../fonts/OpenSans-Bold.ttf)format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RobotoSlabRegular;
+  src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoSlabBold;
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+$primary-font: OpenSansLight;
+$headers-font-regular: OpenSansRegular;
+$headers-font-bold: OpenSansBold;
+$secondary-font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$seo-font: RobotoSlabRegular;
+$seo-font-bold: RobotoSlabBold;
+
+
+body{
+  font-family: $primary-font;
+  font-size: 16px;
+}
