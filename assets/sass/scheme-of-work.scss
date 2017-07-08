@@ -1,0 +1,105 @@
+.container-scheme {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 1250px;
+}
+.container-scheme h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container-scheme p {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+.scheme {
+
+}
+.scheme-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.scheme__field input[type="text"] {
+  border: 1px solid #ccc;
+  width: 224px;
+  padding: 12px 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.scheme__field input[type="submit"] {
+  background-color: #3e35bd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: #3e35bd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  cursor: pointer;
+}
+.scheme__field input[type="submit"]:hover {
+  background-color: #3830aa;
+  border-color: #322a97;
+  color: white;
+}
+.scheme-paragraph {
+  margin-bottom: 30px;
+}
+.scheme-paragraph__last {
+  margin-bottom: 10px;
+}
+.scheme-arrow img {
+  width: 44px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.scheme-arrow img:hover {
+  border:1px solid #cccccc;
+  border-radius: 5px;
+  padding: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+#title-pictures {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.scheme-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.scheme-pictures__item {
+  width: 48%;
+}
+.scheme-pictures__item img {
+  width: 545px;
+}
+.bold {
+  font-family: $headers-font-bold;
+}
+.btn-download {
+  width: 325px;
+  margin: auto;
+}

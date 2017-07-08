@@ -1,0 +1,113 @@
+.container-cost {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url("../images/book.jpg")0 0;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  background-position: 50% 55%;
+}
+.container-cost__opacity {
+  background-color: rgba(43, 42, 42, 0.86);
+  height: 100%;
+  padding-top: 45px;
+}
+.container-cost h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 44px;
+}
+.cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.cost__item {
+  margin-top: 20px;
+  width: 31.5%;
+  text-align: center;
+}
+.cost__item-wrap {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(54, 46, 168);
+}
+.cost__title {
+  font-size: 22px;
+  font-family: $headers-font-bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.cost__text {
+  color: #ffffff;
+  font-weight: bold;
+}
+.cost__line-block {
+  padding: 5px;
+}
+.cost__line {
+  width: 74%;
+  border-top: 3px solid rgb(104, 183, 255);
+  margin: auto;
+}
+.cost__list ul{
+  text-align: start;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top:0;
+  margin-top: 0;
+}
+.cost__trait {
+  color: rgb(194, 194, 194);
+  font-size: 36px;
+  text-decoration: line-through;
+  padding-top: 10px;
+  font-family: $headers-font-bold;
+}
+.cost__now {
+  text-transform: uppercase;
+  font-family: $headers-font-bold;
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.cost__btn input {
+  background-color: rgb(62, 53, 189);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 3px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: rgb(62, 53, 189);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+.cost__btn input:hover {
+  background-color: rgb(56, 48, 170);
+  border-color: rgb(50, 42, 151);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.cost p{
+  color: #ffffff;
+  float: left;
+}

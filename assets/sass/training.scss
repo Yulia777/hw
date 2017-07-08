@@ -1,0 +1,38 @@
+.container-training {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url("../images/cosmo-fon.jpg")0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 55%;
+}
+.container-training__background {
+  background-color: rgba(18, 14, 50, 0.86);
+  height: 100%;
+  padding-top: 45px;
+}
+.container-training h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.container-training p {
+  color: #ffffff;
+  float: left;
+}
+.training-list ul {
+  text-align: start;
+}
+.training-list ul li {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+}
+.training-list {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
