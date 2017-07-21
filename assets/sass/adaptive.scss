@@ -139,6 +139,18 @@
     padding-left: 6%!important;
     padding-right: 6% !important;
   }
+  .cost__btn-pink input {
+    font-size: 10px!important;
+  }
+  .cost__btn input {
+    font-size: 10px!important;
+  }
+  .facts__wrap {
+    width: 95% !important;
+  }
+  .reviews-images {
+    width: 95% !important;
+  }
   .header {
     width: 98%;
   }
@@ -339,6 +351,8 @@
   }
   .cost {
     flex-direction: column!important;
+    padding-left: 5% !important;
+    padding-right: 5%!important;
   }
   .cost__item {
     width: 100%!important;
@@ -361,6 +375,77 @@
     font-size: 14px!important;
   }
   .cost__btn input {
+    font-size: 10px!important;
+  }
+  .training-list {
+    width: 80%!important;;
+  }
+  .training-list p {
+    font-size: 12px!important;;
+  }
+  .consultation__name {
+    font-size: 12px!important;;
+  }
+  .consultation__information-block {
+    font-size: 12px!important;;
+    flex-direction: column!important;;
+  }
+  .consultation__photo {
+    margin: auto!important;;
+  }
+  .consultation__text {
+    width: 90%!important;;
+    margin: auto!important;;
+  }
+  .training-consultation__btn {
+    font-size: 12px!important;;
+    width: 90%!important;
+    margin-bottom: 20px!important;
+  }
+  .consultation__item:nth-child(4) {
+    margin-bottom: 20px!important;
+  }
+  .reviews-images {
+    width: 95%!important;
+  }
+  .reviews-images img {
+    width: 95%;
+  }
+  .container-reviews h2 {
+    margin-bottom: 20px!important;
+  }
+  .container-reviews__background {
+    padding-top: 20px!important;
+  }
+  .reviews-images {
+    margin-bottom: 10px!important;
+  }
+  .facts__container {
+    flex-direction: column!important;
+  }
+  .facts__item {
+    width: 100%!important;
+  }
+  .container-facts__background {
+    padding-top: 20px!important;
+  }
+  .container-facts h2 {
+    margin-bottom: 0!important;
+  }
+  .facts__wrap {
+    padding-bottom: 20px!important;
+    width: 80%!important;
+  }
+  .facts__text-max {
+    font-size: 58px!important;
+  }
+  .facts__text-min {
+    font-size: 18px!important;
+  }
+  .facts__text {
+    font-size: 14px;
+  }
+  .cost__btn-pink input {
     font-size: 10px!important;
   }
   .header {

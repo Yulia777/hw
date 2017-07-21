@@ -499,6 +499,14 @@ p {
     justify-content: space-around;
     padding-left: 6% !important;
     padding-right: 6% !important; }
+  .cost__btn-pink input {
+    font-size: 10px !important; }
+  .cost__btn input {
+    font-size: 10px !important; }
+  .facts__wrap {
+    width: 95% !important; }
+  .reviews-images {
+    width: 95% !important; }
   .header {
     width: 98%; }
   .header__logo-image img {
@@ -656,7 +664,9 @@ p {
   .cost {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
-            flex-direction: column !important; }
+            flex-direction: column !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important; }
   .cost__item {
     width: 100% !important; }
   .cost__title {
@@ -672,6 +682,59 @@ p {
   .cost__now {
     font-size: 14px !important; }
   .cost__btn input {
+    font-size: 10px !important; }
+  .training-list {
+    width: 80% !important; }
+  .training-list p {
+    font-size: 12px !important; }
+  .consultation__name {
+    font-size: 12px !important; }
+  .consultation__information-block {
+    font-size: 12px !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+            flex-direction: column !important; }
+  .consultation__photo {
+    margin: auto !important; }
+  .consultation__text {
+    width: 90% !important;
+    margin: auto !important; }
+  .training-consultation__btn {
+    font-size: 12px !important;
+    width: 90% !important;
+    margin-bottom: 20px !important; }
+  .consultation__item:nth-child(4) {
+    margin-bottom: 20px !important; }
+  .reviews-images {
+    width: 95% !important; }
+  .reviews-images img {
+    width: 95%; }
+  .container-reviews h2 {
+    margin-bottom: 20px !important; }
+  .container-reviews__background {
+    padding-top: 20px !important; }
+  .reviews-images {
+    margin-bottom: 10px !important; }
+  .facts__container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+            flex-direction: column !important; }
+  .facts__item {
+    width: 100% !important; }
+  .container-facts__background {
+    padding-top: 20px !important; }
+  .container-facts h2 {
+    margin-bottom: 0 !important; }
+  .facts__wrap {
+    padding-bottom: 20px !important;
+    width: 80% !important; }
+  .facts__text-max {
+    font-size: 58px !important; }
+  .facts__text-min {
+    font-size: 18px !important; }
+  .facts__text {
+    font-size: 14px; }
+  .cost__btn-pink input {
     font-size: 10px !important; }
   .header {
     width: 98%; }
@@ -718,21 +781,113 @@ p {
   color: #ffffff;
   float: left; }
 
-.training-list ul {
-  text-align: start; }
-
-.training-list ul li {
-  font-size: 26px;
+.training-list p {
+  font-size: 18px;
   font-weight: bold;
   color: #fff;
-  padding-left: 20px; }
+  padding-left: 20px;
+  line-height: 30px; }
 
 .training-list {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  width: 750px; }
+
+.training-list__wrap {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ed719e;
+  padding: 25px 0 25px 0; }
+
+.pink-name {
+  color: #f49bc1;
+  font-family: OpenSansBold; }
+
+.training-consultation {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+
+.consultation__item {
+  margin-bottom: 50px; }
+
+.consultation__name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 30px; }
+
+.consultation__information-block {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff; }
+
+.consultation__photo {
+  width: 135px;
+  height: 205px;
+  border: 1px solid #ed719e;
+  margin-right: 25px; }
+
+.consultation__photo img {
+  width: 125px;
+  height: 195px;
+  padding: 5px; }
+
+.consultation__text {
+  width: 50%; }
+
+.container__text-description {
+  text-align: justify;
+  margin-top: 5px;
+  color: #ffffff; }
+
+.consultation__text ul {
+  color: #ffffff;
+  text-align: start; }
+
+.training-consultation__btn {
+  background-color: #3d35bd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: #312a97;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 19px;
+  color: white;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-bottom: 75px; }
+
+.training-consultation__btn:hover {
+  background-color: #3730aa;
+  border-color: #272279;
+  color: white; }
 
 .container-scheme {
   margin-left: auto;
@@ -847,18 +1002,13 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background: url("../images/book.jpg") 0 0;
-  /*background-attachment: fixed;*/
-  background-size: cover;
-  background-position: 50% 55%; }
+  padding-bottom: 50px; }
 
 .container-cost__opacity {
-  background-color: rgba(43, 42, 42, 0.86);
   height: 100%;
   padding-top: 45px; }
 
 .container-cost h2 {
-  color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 44px; }
@@ -890,12 +1040,10 @@ p {
 .cost__title {
   font-size: 22px;
   font-family: OpenSansBold;
-  color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 30px; }
 
 .cost__text {
-  color: #ffffff;
   font-weight: bold; }
 
 .cost__line-block {
@@ -903,29 +1051,32 @@ p {
 
 .cost__line {
   width: 74%;
-  border-top: 3px solid #68b7ff;
+  border-top: 2px solid #3529a9;
   margin: auto; }
 
 .cost__list ul {
   text-align: start;
   font-weight: bold;
-  color: #ffffff;
   padding-top: 0;
   margin-top: 0; }
 
 .cost__trait {
-  color: #c2c2c2;
-  font-size: 36px;
-  text-decoration: line-through;
-  padding-top: 10px;
+  color: #626262;
+  font-size: 32px;
+  padding-bottom: 20px;
   font-family: OpenSansBold; }
 
 .cost__now {
   text-transform: uppercase;
   font-family: OpenSansBold;
-  color: #ffffff;
-  font-size: 20px;
-  padding-bottom: 10px; }
+  font-size: 26px;
+  text-decoration: line-through; }
+
+.cost__now-all {
+  text-transform: uppercase;
+  font-family: OpenSansBold;
+  font-size: 26px;
+  padding-bottom: 20px; }
 
 .cost__btn input {
   background-color: #3e35bd;
@@ -956,5 +1107,132 @@ p {
   cursor: pointer; }
 
 .cost p {
-  color: #ffffff;
   float: left; }
+
+.cost__btn-pink input {
+  background-color: #ed719e;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 3px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: #ed719e;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25); }
+
+.cost__btn-pink input:hover {
+  background-color: #e95289;
+  border-color: #e53374;
+  color: white; }
+
+.cost__item-wrap-pink {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+  border-radius: 6px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #ed719e; }
+
+#money {
+  font-size: 26px; }
+
+.cost__line-pink {
+  width: 74%;
+  border-top: 4px solid #ed719e;
+  margin: auto; }
+
+.container-reviews {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url("../images/fon-review.png") 0 0; }
+
+.container-reviews__background {
+  padding-top: 45px; }
+
+.container-reviews h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 50px; }
+
+.reviews-images__wrap {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+          align-items: center; }
+
+.reviews-images {
+  background-color: rgba(18, 14, 50, 0.05);
+  border-radius: 10px;
+  width: 45%;
+  margin-bottom: 50px;
+  padding: 10px 0 8px 0; }
+
+.container-facts {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url("../images/cosmo-fon.jpg") 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 55%; }
+
+.container-facts__background {
+  background-color: rgba(18, 14, 50, 0.86);
+  height: 100%;
+  padding-top: 50px; }
+
+.container-facts h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 24px; }
+
+.facts__wrap {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 50px; }
+
+.facts__container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row; }
+
+.facts__item {
+  width: 38%; }
+
+.facts__text-min {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold; }
+
+.facts__text-max {
+  font-size: 72px;
+  color: #ffffff;
+  font-family: OpenSansBold; }
+
+.facts__text {
+  color: #ffffff;
+  font-weight: bold; }
+
+.facts__item-pink {
+  color: #bc8cbf; }

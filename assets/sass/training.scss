@@ -22,17 +22,100 @@
   color: #ffffff;
   float: left;
 }
-.training-list ul {
-  text-align: start;
-}
-.training-list ul li {
-  font-size: 26px;
+.training-list p {
+  font-size: 18px;
   font-weight: bold;
   color: #fff;
   padding-left: 20px;
+  line-height: 30px;
 }
 .training-list {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  width: 750px;
+}
+.training-list__wrap {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(237, 113, 158);
+  padding: 25px 0 25px 0;
+}
+.pink-name {
+  color:rgb(244, 155, 193);
+  font-family: $headers-font-bold;
+}
+.training-consultation {
+  display: flex;
+  flex-direction: column;
+}
+.consultation__item {
+  margin-bottom: 50px;
+}
+.consultation__name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.consultation__information-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.consultation__photo {
+  width: 135px;
+  height: 205px;
+  border: 1px solid rgb(237, 113, 158);
+  margin-right: 25px;
+}
+.consultation__photo img {
+  width: 125px;
+  height: 195px;
+  padding: 5px;
+}
+.consultation__text {
+  width: 50%;
+}
+.container__text-description {
+  text-align: justify;
+  margin-top: 5px;
+  color: #ffffff;
+}
+.consultation__text ul {
+  color: #ffffff;
+  text-align: start;
+}
+.training-consultation__btn {
+  background-color: rgb(61, 53, 189);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: rgb(49, 42, 151);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-bottom: 75px;
+}
+.training-consultation__btn:hover {
+  background-color: rgb(55, 48, 170);
+  border-color: rgb(39, 34, 121);
+  color: rgb(255, 255, 255);
 }

@@ -1,0 +1,53 @@
+.container-facts {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: url("../images/cosmo-fon.jpg")0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 55%;
+}
+.container-facts__background {
+  background-color: rgba(18, 14, 50, 0.86);
+  height: 100%;
+  padding-top: 50px;
+}
+.container-facts h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.facts__wrap {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.facts__container {
+  display: flex;
+  flex-direction: row;
+}
+.facts__item {
+  width: 38%;
+}
+.facts__text-min {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.facts__text-max {
+  font-size: 72px;
+  color: #ffffff;
+  font-family: $headers-font-bold;
+}
+.facts__text {
+  color: #ffffff;
+  font-weight: bold;
+}
+.facts__item-pink {
+  color: rgb(188, 140, 191);
+}
+
+
+
+
